@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "baseUrl": "src",
+        "outDir": "dist",
+        "resolveJsonModule": true,
+        "skipLibCheck": true,
+        "moduleResolution": "Node",
+        "module": "CommonJS",
+        "allowSyntheticDefaultImports": true,
+        "noErrorTruncation": true,
+        "lib": ["ESNext", "DOM"],
+        "sourceMap": true,
+        "strict": false,
+        "target": "ES2022",
+        "incremental": true,
+        "paths": {
+            "@~/lib/*": ["lib/*"]
+        }
+    },
+    "include": ["src/**/*"],
+    "exclude": ["node_modules", "dist"]
+}
